@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,QACE,iBACF,CAKA,WACE,wBACF,CAEA,WACE,UACF","file":"main.7e02b79c.chunk.css","sourcesContent":[".header {\r\n  text-align: center;\r\n}\r\nbody {\r\n  background-color: #fffbc9;\r\n}\r\n\r\n.card {\r\n  background-color: #fffbc9;\r\n}\r\n\r\n.card-text {\r\n  color: black;\r\n}"]}
