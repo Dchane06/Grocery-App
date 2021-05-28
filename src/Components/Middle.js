@@ -72,13 +72,13 @@ function Middle() {
         <div class="card">
         <div class="card text-center">
   <div class="card-header">
-    List
+      This app was created to create a simple grocery list for when you're about to go to the groceries to help yourself remember what to get.
   </div>
   <div class="card-body">
     <h5 class="card-title">This is your grocery list!</h5>
     <p class="card-text">Use the input boxes and button below to create your grocery list.</p>
-    <p class="card-text">Put the name of the item in the Item Name box, then put how much of the item you have left in the Quantity Left box.</p>
-    <p class="card-text">Use the + or - button beside the Item Name box to add or remove an item. Use the + or - beside the Quantity Left box to add or subtract the quantity left.</p>
+    <p class="card-text">Put the name of the item in the box below, then click 'Add to list!' to add the item to your list.</p>
+    <p class="card-text">Use the + or - button under the item to add or subtract the quantity you'll be wanting to get. Use the 'Delete' button to delete the item from your list.</p>
         <div className="add-item-box">
             <input value={inputValue} onChange={(event)=> setInputValue(event.target.value)} className="add-item-input"></input>
         <button className="add-item-button" onClick={() => handleAddButtonClick()}>Add to list!</button>
